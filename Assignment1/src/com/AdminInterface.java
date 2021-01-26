@@ -92,11 +92,12 @@ public class AdminInterface extends JFrame implements IGui{
         descriptionTxt.setText(item.getDescription());
         typeTxt.setText(item.getType());
         priceTxt.setText(Float.toString(item.getPrice()));
+        quantityTxt.setText(Integer.toString(item.getQuantity()));
     }
     public void saveDetails(){
         Item item = controller.getItem(itemsTbl.getSelectedRow());
         item.setDescription(descriptionTxt.getText());
-        item.setType(typeTxt.toString());
+        item.setType(typeTxt.getText());
         try{
             float newValue = Float.parseFloat(priceTxt.getText());
             item.setPrice(newValue);

@@ -60,7 +60,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="acb4b" class="javax.swing.JTextField" binding="priceTxt">
         <constraints>
@@ -68,7 +70,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="e2f2e" class="javax.swing.JButton" binding="saveBtn">
         <constraints>
@@ -108,7 +112,9 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <component id="ada80" class="javax.swing.JButton" binding="lowStockBtn">
         <constraints>

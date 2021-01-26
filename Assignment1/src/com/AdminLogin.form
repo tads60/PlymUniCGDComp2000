@@ -23,7 +23,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Username here:"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="e7f52" class="javax.swing.JButton" binding="LoginBtn">
